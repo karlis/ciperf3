@@ -19,7 +19,7 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 */
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
 #ifndef cJSON__h
 #define cJSON__h

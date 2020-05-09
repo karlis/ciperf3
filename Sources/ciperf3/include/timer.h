@@ -31,7 +31,7 @@
 #define __TIMER_H
 
 #include <time.h>
-#include "include/iperf_time.h"
+#include "iperf_time.h"
 
 /* TimerClientData is an opaque value that tags along with a timer.  The
 ** client can use it for whatever, and it gets passed to the callback when
