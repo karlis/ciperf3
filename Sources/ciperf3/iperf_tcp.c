@@ -44,7 +44,7 @@
 #include "include/cjson.h"
 
 #if defined(HAVE_FLOWLABEL)
-#include "flowlabel.h"
+#include "include/flowlabel.h"
 #endif /* HAVE_FLOWLABEL */
 
 /* iperf_tcp_recv

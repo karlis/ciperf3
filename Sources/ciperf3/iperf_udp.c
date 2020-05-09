@@ -46,7 +46,7 @@
 #include "include/timer.h"
 #include "include/net.h"
 #include "include/cjson.h"
-#include "portable_endian.h"
+#include "include/portable_endian.h"
 
 #if defined(HAVE_INTTYPES_H)
 # include <inttypes.h>

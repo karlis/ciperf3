@@ -27,7 +27,7 @@
 #ifndef __IPERF_H
 #define __IPERF_H
 
-#include "iperf_config.h"
+#include "include/iperf_config.h"
 
 #include <sys/time.h>
 #include <sys/types.h>
@@ -58,10 +58,10 @@
 # endif
 #endif
 
-#include "timer.h"
-#include "queue.h"
-#include "cjson.h"
-#include "iperf_time.h"
+#include "include/timer.h"
+#include "include/queue.h"
+#include "include/cjson.h"
+#include "include/iperf_time.h"
 
 #if defined(HAVE_SSL)
 #include <openssl/bio.h>
