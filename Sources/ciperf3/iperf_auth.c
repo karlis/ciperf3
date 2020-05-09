@@ -25,7 +25,7 @@
  * for complete information.
  */
 
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
 #include <string.h>
 #include <assert.h>

@@ -24,7 +24,7 @@
  * This code is distributed under a BSD style license, see the LICENSE
  * file for complete information.
  */
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -45,8 +45,8 @@
 
 #include "include/iperf.h"
 #include "include/iperf_api.h"
-#include "include/iperf_sctp.h"
-#include "include/net.h"
+#include "iperf_sctp.h"
+#include "net.h"
 
 
 

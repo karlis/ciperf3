@@ -30,8 +30,8 @@
 #include <sys/types.h>
 #include <stdlib.h>
 
-#include "include/timer.h"
-#include "include/iperf_time.h"
+#include "timer.h"
+#include "iperf_time.h"
 
 static Timer* timers = NULL;
 static Timer* free_timers = NULL;

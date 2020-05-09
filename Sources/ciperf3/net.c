@@ -24,7 +24,7 @@
  * This code is distributed under a BSD style license, see the LICENSE
  * file for complete information.
  */
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
 #include <stdio.h>
 #include <unistd.h>
@@ -60,9 +60,9 @@
 #include <poll.h>
 #endif /* HAVE_POLL_H */
 
-#include "include/iperf_util.h"
-#include "include/net.h"
-#include "include/timer.h"
+#include "iperf_util.h"
+#include "net.h"
+#include "timer.h"
 
 /*
  * Declaration of gerror in iperf_error.c.  Most other files in iperf3 can get this

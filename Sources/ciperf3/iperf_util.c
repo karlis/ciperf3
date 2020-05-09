@@ -29,7 +29,7 @@
  * Iperf utility functions
  *
  */
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
 #include <stdio.h>
 #include <signal.h>
@@ -46,7 +46,7 @@
 #include <errno.h>
 #include <fcntl.h>
 
-#include "include/cjson.h"
+#include "cjson.h"
 #include "include/iperf.h"
 #include "include/iperf_api.h"
 

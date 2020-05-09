@@ -37,14 +37,14 @@
 #include <sys/select.h>
 #include <limits.h>
 
-#include "include/iperf.h"
-#include "include/iperf_api.h"
-#include "include/iperf_tcp.h"
-#include "include/net.h"
-#include "include/cjson.h"
+#include "iperf.h"
+#include "iperf_api.h"
+#include "iperf_tcp.h"
+#include "net.h"
+#include "cjson.h"
 
 #if defined(HAVE_FLOWLABEL)
-#include "include/flowlabel.h"
+#include "flowlabel.h"
 #endif /* HAVE_FLOWLABEL */
 
 /* iperf_tcp_recv

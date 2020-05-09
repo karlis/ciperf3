@@ -54,7 +54,7 @@
 
 #include "include/iperf.h"
 #include "include/iperf_api.h"
-#include "include/iperf_locale.h"
+#include "iperf_locale.h"
 
 /*************************************************************/
 int

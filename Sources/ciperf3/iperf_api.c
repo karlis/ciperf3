@@ -29,7 +29,7 @@
 #endif
 #define __USE_GNU
 
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -67,24 +67,24 @@
 #include <Windows.h>
 #endif /* HAVE_SETPROCESSAFFINITYMASK */
 
-#include "include/net.h"
+#include "net.h"
 #include "include/iperf.h"
 #include "include/iperf_api.h"
-#include "include/iperf_udp.h"
-#include "include/iperf_tcp.h"
+#include "iperf_udp.h"
+#include "iperf_tcp.h"
 #if defined(HAVE_SCTP)
-#include "include/iperf_sctp.h"
+#include "iperf_sctp.h"
 #endif /* HAVE_SCTP */
-#include "include/timer.h"
+#include "timer.h"
 
-#include "include/cjson.h"
-#include "include/units.h"
-#include "include/iperf_util.h"
-#include "include/iperf_locale.h"
-#include "include/version.h"
+#include "cjson.h"
+#include "units.h"
+#include "iperf_util.h"
+#include "iperf_locale.h"
+#include "version.h"
 #if defined(HAVE_SSL)
 #include <openssl/bio.h>
-#include "include/iperf_auth.h"
+#include "iperf_auth.h"
 #endif /* HAVE_SSL */
 
 /* Forwards. */

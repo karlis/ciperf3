@@ -62,7 +62,7 @@
 #include <sys/time.h>
 
 
-#include "include/iperf.h"
+#include "iperf.h"
 
 #ifdef __cplusplus
 extern    "C"

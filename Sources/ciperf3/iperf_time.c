@@ -28,8 +28,8 @@
 
 #include <stddef.h>
 
-#include "include/iperf_config.h"
-#include "include/iperf_time.h"
+#include "iperf_config.h"
+#include "iperf_time.h"
 
 #ifdef HAVE_CLOCK_GETTIME
 

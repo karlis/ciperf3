@@ -39,11 +39,11 @@
 
 #include "include/iperf.h"
 #include "include/iperf_api.h"
-#include "include/iperf_util.h"
-#include "include/iperf_locale.h"
-#include "include/iperf_time.h"
-#include "include/net.h"
-#include "include/timer.h"
+#include "iperf_util.h"
+#include "iperf_locale.h"
+#include "iperf_time.h"
+#include "net.h"
+#include "timer.h"
 
 #if defined(HAVE_TCP_CONGESTION)
 #if !defined(TCP_CA_NAME_MAX)

@@ -77,9 +77,9 @@
  * -------------------------------------------------------------------
  * Strings and other stuff that is locale specific.
  * ------------------------------------------------------------------- */
-#include "include/iperf_config.h"
+#include "iperf_config.h"
 
-#include "include/version.h"
+#include "version.h"
 
 #ifdef __cplusplus
 extern    "C"

@@ -41,12 +41,12 @@
 
 #include "include/iperf.h"
 #include "include/iperf_api.h"
-#include "include/iperf_util.h"
-#include "include/iperf_udp.h"
-#include "include/timer.h"
-#include "include/net.h"
-#include "include/cjson.h"
-#include "include/portable_endian.h"
+#include "iperf_util.h"
+#include "iperf_udp.h"
+#include "timer.h"
+#include "net.h"
+#include "cjson.h"
+#include "portable_endian.h"
 
 #if defined(HAVE_INTTYPES_H)
 # include <inttypes.h>
